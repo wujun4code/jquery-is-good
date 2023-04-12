@@ -1,0 +1,57 @@
+.container {
+    width: 1280px;
+}
+
+.wellness-radio-option-container,
+.wellness-checkbox-option-container {
+    display: flex;
+}
+
+.wellness-option {
+    background-color: var(--base-color-white);
+    box-shadow: var(--elevation-1);
+    display: flex;
+    align-items: center;
+}
+
+/*radio*/
+.wellness-radio-option.active .wellness-radio-option-btn-icon {
+    content: url("./public/radio-btn.svg")
+}
+
+.wellness-radio-option.active .radio-option-text {
+    color: var(--success-300);
+}
+
+.wellness-radio-option .wellness-radio-option-btn-icon {
+    content: url("./public/radio-btn1.svg")
+}
+
+/*checkbox*/
+.wellness-checkbox-option.active .wellness-checkbox-option-btn-icon {
+    content: url("./public/checked.svg")
+}
+
+.wellness-checkbox-option.active .checkbox-option-text {
+    color: var(--success-300);
+}
+
+.wellness-checkbox-option .wellness-checkbox-option-btn-icon {
+    content: url("./public/unchecked.svg")
+}
+
+.wellness-progress-bar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.wellness-progress-bar-actions {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.wellness-progress-bar-next-btn {
+    background-color: var(--primary-green);
+    color: var(--base-color-white);
+}

@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --links: "SF Pro Text";
+  --noto-sans-heading-4: "Noto Sans";
+
+  /* font sizes */
+  --links-size: 16px;
+  --noto-sans-heading-3-size: 20px;
+  --noto-sans-small-size: 14px;
+  --font-size-5xs: 8px;
+  --noto-sans-heading-1-size: 32px;
+  --desktop-paragraph-small-regular-upper-size: 12px;
+  --desktop-heading-05-bold-size: 18px;
+  --heading-l-size: 24px;
+
+  /* Colors */
+  --base-color-white: #fff;
+  --info-300: #126cc5;
+  --gray-neutral-general-text-dark-background-text-300: #333;
+  --color-beige-100: #dde9cf;
+  --success-100: #c8e6c9;
+  --success-3001: #2e7d32;
+  --success-300: #2c7500;
+  --grey-200: #f5f5f5;
+  --color-whitesmoke-100: #f2f2f2;
+  --color-lightgoldenrodyellow: #ccdeb8;
+  --primary-green: #458500;
+  --grey-300: #e0e0e0;
+  --color-gainsboro: #d9d9d9;
+  --grey-400: #ccc;
+  --base-color-grey-5: #999;
+  --base-color-grey-1: #fafafa;
+  --color-gray-100: rgba(0, 0, 0, 0.04);
+  --base-color-blue-text: #1976d2;
+  --color-black: #000;
+  --base-color-grey-6: #666;
+  --base-color-secondary: #f38a00;
+  --orange-orange-text: #d47500;
+  --ui-color-alert: #ffea00;
+
+  /* Gaps */
+  --gap-29xl: 48px;
+  --gap-base: 16px;
+  --gap-13xl: 32px;
+  --gap-5xs: 8px;
+  --gap-5xl: 24px;
+  --gap-9xs: 4px;
+  --gap-11xs: 2px;
+  --gap-xs: 12px;
+
+  /* Paddings */
+  --padding-45xl: 64px;
+  --padding-53xl: 72px;
+  --padding-77xl: 96px;
+  --padding-109xl: 128px;
+  --padding-5xl: 24px;
+  --padding-base: 16px;
+  --padding-5xs: 8px;
+  --padding-xs: 12px;
+  --padding-29xl: 48px;
+  --padding-13xl: 32px;
+  --padding-10xs: 3px;
+  --padding-9xs: 4px;
+
+  /* border radiuses */
+  --br-base: 16px;
+  --br-5xs: 8px;
+  --br-11xs: 2px;
+  --br-7xs: 6px;
+  --br-9xs: 4px;
+
+  /* Effects */
+  --elevation-1: 0px 2px 8px rgba(106, 115, 129, 0.12);
+  --elevation-3: 0px 12px 20px rgba(106, 115, 129, 0.22);
+  --nav-elevation: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
